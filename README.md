@@ -47,12 +47,10 @@ while appropriate translations of symbolic formulas to natural-language sentence
 
 ```json
 {
-    ...,
     "(x): ¬${A}x -> ${B}x" : [
         "Whoever is not a ${A} is a ${B}. ",
         "Nobody is neither a ${A} nor a ${B}. "
-    ],
-    ...
+    ]
 }
 ```
 
