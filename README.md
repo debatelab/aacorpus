@@ -2,6 +2,8 @@
 
 Code for generating the synthetic argumentative texts in the paper ["Critical Thinking for Language Models"](https://arxiv.org/pdf/2009.07185), accepted for IWCS 2021.
 
+> G Betz, C Voigt and K Richardson: *Critical Thinking for Language Models*, IWCS 2021
+
 This repository doesn't contain the actual datasets used in the paper, which, however, [can be downloaded here](https://bwsyncandshare.kit.edu/s/97FCrJECJKWxawD).
 
 
@@ -83,3 +85,4 @@ The argument (premise-conclusion list) is, finally, rendered as text paragraph b
 ## Requirements
 
 `create_trainfiles.py` requires, as is, that [spgutenberg](https://github.com/pgcorpus/gutenberg) and [Reuters trc2](https://trec.nist.gov/data/reuters/reuters.html) be available. 
+
