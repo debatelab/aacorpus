@@ -9,7 +9,7 @@ This repository doesn't contain the actual datasets used in the paper, which, ho
 
 ![Pipeline](https://debatelab.github.io/assets/img/pipeline.png)
 
-### Step 1
+#### Step 1
 
 In step 1, a formal argument scheme is chosen from the given config file (`conf_syllogistic_corpus-01.json` or `conf_syllogistic_corpus-02.json`), such as
 
@@ -28,7 +28,7 @@ In step 1, a formal argument scheme is chosen from the given config file (`conf_
 }
 ```
 
-### Step 2
+#### Step 2
 
 Next, each symbolic formula in the selected inference is replaced with a natural-language sentence scheme, e.g.
 
@@ -54,7 +54,7 @@ while appropriate translations of symbolic formulas to natural-language sentence
 }
 ```
 
-### Step 3
+#### Step 3
 
 In step 3, appropriate substitutions for the schemes' placeholders are retrieved from the config file, such as
 
@@ -70,11 +70,11 @@ Substitutes for predicate placeholders are actually generated from a binary pred
 
 The config files contain 5 (training and testing) respectively 2 (testing only) different domains. Each domain provides at least several hundreds of (complex) predicates. 
 
-### Step 4
+#### Step 4
 
 The premises are mixed.
 
-### Step 5
+#### Step 5
 
 The argument (premise-conclusion list) is, finally, rendered as text paragraph by framing the argument and prepending premise and conclusion indicators to the corresponding sentences. These items are retrieved from the config file, too.
 
