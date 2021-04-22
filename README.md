@@ -70,7 +70,10 @@ In step 3, appropriate substitutions for the schemes' placeholders are retrieved
 
 Substitutes for predicate placeholders are actually generated from a binary predicate (x *is a supporter of* y) and an object term (*FC Liverpool*).
 
-The config files contain 5 (training and testing) respectively 2 (testing only) different domains. Each domain provides at least several hundreds of (complex) predicates. 
+The config files (`conf_syllogistic_corpus-01.json` or `conf_syllogistic_corpus-02.json`) contain five (training and testing) respectively two (testing only) different domains: `female_relatives`, `male_relatives`, `football_fans`, `consumers_personalcare` and `chemical_ingredients`; `dinos` and `philosophers`.
+
+Each domain used for training provides at least several hundreds of (complex) predicates. 
+
 
 #### Step 4
 
